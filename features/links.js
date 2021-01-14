@@ -5,9 +5,6 @@
 
 module.exports = function(controller) {
 
-    controller.hears('sample','message,direct_message', async (bot, message) => {
-        await bot.reply(message, 'I heard a sample message.');
-    });
     controller.hears('flexibility','message,direct_message', async (bot, message) => {
         await bot.reply(message, 'https://www.youtube.com/watch?v=sTANio_2E0Q');
     });
