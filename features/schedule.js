@@ -64,11 +64,9 @@ module.exports = function( controller ) {
         controller.on( 'attachmentActions', async ( bot, message ) => {
 
             let hostName = message.value.vmlist;
-
             await bot.reply( message, {
                 text: 'Thank you! We will send you a notification about the session on the specified time ',
                 attachments: [
-                    
                 ],
             });
         });
