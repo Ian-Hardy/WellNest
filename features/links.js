@@ -6,18 +6,18 @@
 module.exports = function(controller) {
 
     controller.hears('flexibility','message,direct_message', async (bot, message) => {
-        await bot.reply(message, 'https://www.youtube.com/watch?v=sTANio_2E0Q');
+        await bot.reply(message, 'https://danielabedian.github.io/flexibility.html');
     });
 
     controller.hears('meditation','message,direct_message', async (bot, message) => {
-        await bot.reply(message, 'https://www.youtube.com/watch?v=sTANio_2E0Q');
+        await bot.reply(message, 'https://danielabedian.github.io/meditation.html');
     });
 
     controller.hears('fitness','message,direct_message', async (bot, message) => {
-        await bot.reply(message, 'https://www.youtube.com/watch?v=sTANio_2E0Q');
+        await bot.reply(message, 'https://danielabedian.github.io/fitness.html');
     });
     controller.hears('explore','message,direct_message', async (bot, message) => {
-        await bot.reply(message, 'https://www.youtube.com/watch?v=sTANio_2E0Q');
+        await bot.reply(message, 'https://danielabedian.github.io/');
     });
     controller.on('message', async (bot, message) => {
         console.log("MESSAGE from: " + message.personEmail);
